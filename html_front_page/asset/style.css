@@ -1,0 +1,73 @@
+body, html{
+
+}
+nav{
+    background-color: 
+    height: 100%;
+    width: 100%;
+}
+
+.menu{
+    width: 100%;
+   
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+    
+
+    
+    
+}
+
+li{
+    text-decoration: none;
+    display: flex;
+    align-items: center
+    ;
+    color: black;
+    text-decoration: underline;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1635073908681-b4dfbd6015e8?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym13JTIwczEwMDBycnxlbnwwfHwwfHx8MA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+#S1rr{
+    color: whitesmoke;
+    width: 300px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+    position: relative; 
+    top: 370px;
+    left: 100px;  
+
+
+}
+
+ #Product-1{
+        width: 300px;
+        border: 2px solid black;
+        padding: 50px;
+        margin: 20px;
+        position: absolute; 
+        top: 200px;
+        left: 1200px;       
+    }
+#Product-2{
+    width: 300px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+    position: absolute; 
+    top: 500px;
+    left: 1200px; 
+
+}
+
+
