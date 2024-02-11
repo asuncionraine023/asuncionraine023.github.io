@@ -1,4 +1,5 @@
 body, html{
+    font-family: sans-serif;
 
 }
 nav{
@@ -38,15 +39,16 @@ body{
     }
 
 #S1rr{
+    background-color: black;
     color: whitesmoke;
     width: 300px;
     border: 2px solid black;
     padding: 50px;
     margin: 20px;
     position: relative; 
-    top: 370px;
-    left: 100px;  
-
+    top: 325px;
+    left: 400px;  
+    opacity: 50%;
 
 }
 
