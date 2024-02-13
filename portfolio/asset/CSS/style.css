@@ -1,0 +1,67 @@
+body, html {
+    margin: 0px;
+    height: 0%;
+    font-family: sans-serif;
+    
+}
+
+section {
+    height: 100%;
+    padding: 100px 50px;
+}
+
+#logo {
+    /* background-color: #65451F; */
+    position: relative;
+    top: 0px;
+    left: 100px;
+}
+
+nav {
+
+    height: 65px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+
+}
+
+ul {
+
+    list-style: none;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#about-section {
+    height: 100%;
+    background-image: url(/asuncionraine023.github.io/portfolio/asset/IMG/BG-About-sec);
+    background-color: blue;
+}
+
+
+#user-info {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#user-info img {
+    width: 30%;
+    height: 35%;
+    border-radius: 30%;
+}
+
+#services-section {
+    background-color: antiquewhite;
+    height: 100%;
+    width: 100%;
+}
