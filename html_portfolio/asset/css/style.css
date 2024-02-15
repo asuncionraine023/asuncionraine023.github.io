@@ -3,6 +3,8 @@ body, html {
     height: 100% ;
     width: 100%;
     font-family: sans-serif;
+
+    scroll-behavior:smooth;
     
 }
 
@@ -19,7 +21,7 @@ section {
 }
 
 nav {
-
+    color: #EAC696;
     height: 65px;
     width: 100%;
     background-color: #65451F;
@@ -32,7 +34,8 @@ nav {
 
 }
 
-ul {
+
+ul  {
 
     list-style: none;
     width: 800px;
@@ -41,12 +44,16 @@ ul {
 
 }
 
+
+
 #about-section {
     height: 100%;
-    background-image: url(/asuncionraine023.github.io/html_portfolio/asset/img/BG-About-sec);
+    width: 100%;
+    background-image: url(/asuncionraine023.github.io/html_portfolio/asset/img/new-bg-about.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-   
+
+  
 }
 
 button {
@@ -54,8 +61,10 @@ button {
     justify-content: center;
     text-align: center;
     position: relative;
-    left: 745px;
-    border-radius: 50px;
+    left: 790px;
+    border-radius: 50px;.
+
+    
 
 
 }
@@ -67,6 +76,9 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #160f05;
+    font-size: 30px;
+
     
 }
 
@@ -77,10 +89,14 @@ button {
 }
 
 #services-section {
+    color: #160f05;
+    font-size: 30px;
     background-color: #EAC696;
     height: 735px;
     width: 100%;
 }
+
+
 
 
 
@@ -92,6 +108,8 @@ button {
     background-image: url(/asuncionraine023.github.io/html_portfolio/asset/img/full\ stack.jpg);
     background-size: 550px 500px;
     background-repeat: no-repeat;
+    border-radius: 20%;
+    top: 100px;
     
 }
 #service-2 {
@@ -100,10 +118,11 @@ button {
     border: 2px solid black;
     position: relative;
     left: 600px;
-    top: -503px;
+    top: -405px;
     background-image: url(/asuncionraine023.github.io/html_portfolio/asset/img/graphic.png);
     background-size: 550px 500px;
     background-repeat: no-repeat;
+    border-radius: 20%;
    
 }
 #service-3 {
@@ -112,19 +131,86 @@ button {
     border: 2px solid black;
     position: relative;
     left: 1200px;
-    top: -1006px;
+    top: -907px;
     background-image: url(/asuncionraine023.github.io/html_portfolio/asset/img/customer\ service.jpeg);
     background-size: 550px 500px;
     background-repeat: no-repeat;
+    border-radius: 20%;
 }
 
 #portfolio-section {
+    color: #160f05;
+    font-size: 30px;
     background-color: #C8AE7D;
+    height: 735px;
+    width: 100%;
+    
+
+}
+
+#portfolio-1 {
+    border: 2px solid black;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    left: 60px;
+    background-image: url(/asuncionraine023.github.io/html_portfolio/asset/img/available\ soon.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 557px;
+    border-radius: 5%;
+}
+
+#portfolio-2 {
+    border: 2px solid black;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    left: 900px;
+    top: -504px;
+    background-image: url(/asuncionraine023.github.io/html_portfolio/asset/img/available\ soon.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 557px;
+    border-radius: 5%;
 }
 
 #contact-section {
-    background-color: #765827;
+    color: #160f05;
+    font-size: 30px;
+    background-color: #EAC696;
+    height: 670px;
+    width: 100%;
+
 }
+
+#contact-details h3 {
+
+    /* border: 2px solid black; */
+    width: 800px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #email {
+    
+    position: relative;
+    left: 300px;
+}
+
+#mobile {
+    position: relative;
+    top: -350px;
+    left: 1200px;
+}
+
+#tel {
+    position: relative;
+    top:  200px;
+    left: 300px;
+} */
+
+
 
 footer {
     background-color: #65451F;
