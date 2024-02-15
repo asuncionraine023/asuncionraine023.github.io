@@ -1,6 +1,7 @@
 body, html {
-    margin: 0px;
-    height: 0%;
+    margin: 0%;
+    height: 100% ;
+    width: 100%;
     font-family: sans-serif;
     
 }
@@ -21,11 +22,12 @@ nav {
 
     height: 65px;
     width: 100%;
-    background-color: antiquewhite;
+    background-color: #65451F;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: fixed;
+   
 
 }
 
@@ -40,8 +42,21 @@ ul {
 
 #about-section {
     height: 100%;
-    background-image: url(/asuncionraine023.github.io/portfolio/asset/IMG/BG-About-sec);
-    background-color: blue;
+    background-image: url(/asuncionraine023.github.io/html_portfolio/asset/IMG/new-bg-about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+button {
+   
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 745px;
+    border-radius: 50px;
+
+
 }
 
 
@@ -61,7 +76,64 @@ ul {
 }
 
 #services-section {
-    background-color: antiquewhite;
-    height: 100%;
+    background-color: #EAC696;
+    height: 735px;
     width: 100%;
+}
+
+
+
+#service-1 {
+    width: 550px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    background-image: url(/asuncionraine023.github.io/html_portfolio/asset/IMG/full\ stack.jpg);
+    background-size: 550px 500px;
+    background-repeat: no-repeat;
+    
+}
+#service-2 {
+    width: 550px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    left: 600px;
+    top: -500px;
+    background-image: url(/asuncionraine023.github.io/html_portfolio/asset/IMG/graphic.png);
+    background-size: 550px 500px;
+    background-repeat: no-repeat;
+   
+}
+#service-3 {
+    width: 550px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    left: 1200px;
+    top: -1000px;
+    background-image: url(/asuncionraine023.github.io/html_portfolio/asset/IMG/customer\ service.jpeg);
+    background-size: 550px 500px;
+    background-repeat: no-repeat;
+}
+
+#portfolio-section {
+    background-color: #C8AE7D;
+}
+
+
+}
+
+#contact-section {
+    background-color: #765827;
+}
+
+footer {
+    background-color: #65451F;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
 }
