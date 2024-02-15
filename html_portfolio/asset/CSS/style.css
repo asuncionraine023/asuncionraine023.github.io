@@ -99,7 +99,7 @@ button {
     border: 2px solid black;
     position: relative;
     left: 600px;
-    top: -500px;
+    top: -503px;
     background-image: url(/asuncionraine023.github.io/html_portfolio/asset/IMG/graphic.png);
     background-size: 550px 500px;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@ button {
     border: 2px solid black;
     position: relative;
     left: 1200px;
-    top: -1000px;
+    top: -1006px;
     background-image: url(/asuncionraine023.github.io/html_portfolio/asset/IMG/customer\ service.jpeg);
     background-size: 550px 500px;
     background-repeat: no-repeat;
@@ -119,9 +119,6 @@ button {
 
 #portfolio-section {
     background-color: #C8AE7D;
-}
-
-
 }
 
 #contact-section {
