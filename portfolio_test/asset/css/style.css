@@ -1,7 +1,6 @@
 body, html {
     margin: 0%;
-    height: 100% ;
-    width: 100%;
+ 
     font-family: sans-serif;
 
     scroll-behavior:smooth;
@@ -21,7 +20,7 @@ section {
 }
 
 nav {
-    color: #EAC696;
+    color: #F2EFE5;
     height: 65px;
     width: 100%;
     background-color: #65451F;
@@ -91,7 +90,7 @@ button {
 #services-section {
     color: #160f05;
     font-size: 30px;
-    background-color: #EAC696;
+    background-color: #F2EFE5;
     height: 735px;
     width: 100%;
 }
